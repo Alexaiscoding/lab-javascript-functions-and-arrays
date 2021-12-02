@@ -1,19 +1,34 @@
 // Iteration #1: Find the maximum
-function maxOfTwoNumbers() {}
-
-
+function maxOfTwoNumbers(a, b) {
+  if (a > b) return a;
+  else return b;
+}
 
 // Iteration #2: Find longest word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
-function findLongestWord() {}
 
-
+function findLongestWord(arr) {
+  const longestWord = '';
+  for(let i = 0 ; i< arr.length; i++) {
+    if(arr[i].length > longestWord.length) {
+      longestWord = arr[i]
+    }
+  }
+  return longestWord;
+}
 
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
-function sumNumbers() {}
+function sumNumbers(arr) {
+  const total = 0;
+  for (let i = 0; i < arr.length ; i++)
+  {
+    total += arr[i]
+  }
+ return total; 
+}
 
 
 
@@ -26,18 +41,44 @@ function sum() {}
 // Level 1: Array of numbers
 const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
 
-function averageNumbers() {}
+function averageNumbers(Numbers) {
+  const averageNumbers = 0;
+  const total = 0; 
+  for (let i=0 ; i < Numbers.length; i++ )
+  {
+    total += Numbers[i];
+  }
+average = total/i;
+return averageNumbers;
+
+}
+
+
 
 
 // Level 2: Array of strings
 const wordsArr = ['seat', 'correspond', 'linen', 'motif', 'hole', 'smell', 'smart', 'chaos', 'fuel', 'palace'];
 
-function averageWordLength() { }
+function averageWordLength(arr) { 
+
+  const averageword = arr.length;
+  const total = 0;
+for ( let i= 0; i < averageWordLength.length; i++)
+{
+  total +=arr[i].length;
+  average = total/i;
+  return averageWordLength
+}
+
+}
+
+
+
 
 // Bonus - Iteration #4.1
 function avg() {}
 
-// Iteration #5: Unique arrays
+// Iteration #5: Unique arrays 
 const wordsUnique = [
   'crab',
   'poison',
@@ -52,7 +93,16 @@ const wordsUnique = [
   'bring'
 ];
 
-function uniquifyArray() {}
+function uniquifyArray(arr) {
+const word ='';
+for ( let i= 0 ;i < arr.length; i++)
+{
+  count.arr [i]= 1
+
+}
+
+  console.log(uniquifyArray.length)
+}
 
 
 
@@ -78,7 +128,10 @@ const wordsCount = [
   'matter'
 ];
 
-function howManyTimes() {}
+function howManyTimes() {
+const count= {};
+
+}
 
 
 
